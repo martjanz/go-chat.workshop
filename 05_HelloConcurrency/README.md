@@ -31,6 +31,10 @@ go func() {
 }()
 fmt.Println("Main")
 time.Sleep(100 * time.Millisecond)
+
+// Resultado (stdout)
+Main
+Slept
 ```
 
 ### Canales
